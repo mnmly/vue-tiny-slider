@@ -276,7 +276,7 @@ var VueTinySlider = {
 				axis: this.axis,
 				items: parseInt(this.items),
 				mode: this.mode,
-				gutter: this.gutter,
+				gutter: parseInt(this.gutter, 10),
 				edgePadding: this.edgePadding,
 				fixedWidth: !this.fixedWidth ? this.fixedWidth : parseInt(this.fixedWidth, 10),
 				viewportMax: this.viewportMax,
